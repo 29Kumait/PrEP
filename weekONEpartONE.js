@@ -37,17 +37,17 @@ const trafficLight = {
     // TODO
     // if the color is green, turn it orange
     if (currentState === 'green') {
-    trafficLight.stat = 'orange';
+    trafficLight.state = 'orange';
     // if the color is orange, turn it red
     } else if (currentState === 'orange') {
-    trafficLight.stat = 'red';
+    trafficLight.state = 'red';
     // if the color is red,
      
     }  else if (currentState === 'red') {
       // add 1 to rotations
        rotations++;
       // and turn it green
-    trafficLight.stat = 'green';
+    trafficLight.state = 'green';
    }
     
   };
