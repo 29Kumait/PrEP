@@ -28,6 +28,7 @@ function getCurrentState(trafficLight) {
 
 function getNextStateIndex(trafficLight) {
   if (trafficLight.stateIndex === 0) {
+    // return trafficLight.stateIndex = 1 / ++trafficLight.stateIndex /  return 1;
     return 1; // If the color is green, turn it orange
   } else if (trafficLight.stateIndex === 1) {
     return 2; // If the color is orange, turn it red
